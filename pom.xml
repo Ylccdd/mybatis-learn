@@ -13,11 +13,37 @@
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
 
+    <!-- jar java项目 war web项目 pom
+         用依赖导入单元测试jar包-->
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/junit/junit -->
         <dependency>
-            <groupId></groupId>
-            <artifactId></artifactId>
-            <version></version>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.25</version>
+        </dependency>
+
+
     </dependencies>
+
+    <!-- 添加编译插件 更改编译环境-->
+    <build>
+        <plugins>
+           <plugin>
+               <groupId>org.apache.maven.plugins</groupId>
+               <artifactId>maven-compiler-plugin</artifactId>
+               <version>3.1</version>
+               <configuration>
+                   <target>1.8</target>
+                   <source>1.8</source>
+               </configuration>
+           </plugin>
+        </plugins>
+    </build>
 </project>
