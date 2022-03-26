@@ -7,12 +7,6 @@ import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import java.io.IOException;
 import java.io.InputStream;
 
-/**
- * @program: mybatis-demo
- * @description:
- * @author: PanKer
- * @create: 2021-12-02 10:51
- */
 public class SqlSessionFactoryUtils {
 
     /**

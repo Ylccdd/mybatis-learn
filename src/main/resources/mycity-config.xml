@@ -6,10 +6,10 @@
 <!--    给包下的类取别名,可以使用单独的方式给每个取名-->
 <!--    也可以直接使用包名,没有@alias注释的话,就是直接用小写名字做类名-->
 <!--    <typeAliases>-->
-<!--        <typeAlias type="space.city.City" alias="city"/>-->
+<!--        <typeAlias type="space.hw.hw1.city.City" alias="city"/>-->
 <!--    </typeAliases>-->
     <typeAliases>
-        <package name="space.city"/>
+        <package name="space.hw.hw1.city"/>
     </typeAliases>
     <environments default="development">
         <environment id="development">

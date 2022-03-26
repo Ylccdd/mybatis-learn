@@ -19,4 +19,23 @@
         INSERT into City(id,name,district) values(#{id},#{name},#{district})
     </insert>
 
+    <update id="updateCity" >
+        update city
+        set name = #{name},
+            district = #{district}
+        where id = #{id};
+    </update>
+
+    <delete id="delCity">
+        delete
+        from city
+        where id = #{id};
+    </delete>
+
+    <select id="selectById" resultType="space.hw.hw1.city.City">
+        select *
+        from city
+        where id = #{id};
+    </select>
+
 </mapper>

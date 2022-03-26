@@ -1,6 +1,6 @@
-package space.test;
+package space.hw.hw1.test;
 
-import space.city.City;
+import space.hw.hw1.city.City;
 import space.dao.CityDao;
 
 public class CityExample {
@@ -8,9 +8,9 @@ public class CityExample {
         CityDao cityDao = new CityDao();
 
         City city = new City();
-        city.setId(11);
-        city.setName("Amber");
-        city.setDistrict("Shanghai");
+        city.setId(111);
+        city.setName("yl");
+        city.setDistrict("地球村");
         cityDao.save(city);
         System.out.println(" ---- Data Inserted Successfully -- ");
     }

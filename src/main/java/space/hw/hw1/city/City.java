@@ -1,4 +1,4 @@
-package space.city;
+package space.hw.hw1.city;
 
 public class City {
 
