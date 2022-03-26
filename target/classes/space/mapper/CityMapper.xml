@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="space.mapper.CityMapper">
+<!--    namespace?????,?????????,mybatis????????????sql??
+        id???resultMap???,type????????
+        property???????,column?????????
+        -->
+    <resultMap type="city" id="CityResult">
+        <id property ="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="district" column="district"/>
+    </resultMap>
+
+    <insert id="insertCity" parameterType="city" keyProperty="id"
+            useGeneratedKeys="true">
+        INSERT into City(id,name,district) values(#{id},#{name},#{district})
+    </insert>
+
+</mapper>
