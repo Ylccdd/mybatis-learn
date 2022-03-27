@@ -20,13 +20,19 @@
         <result property="email" column="email"/>
     </resultMap>
 
-    <insert id="insertEmp" parameterType="employee" keyProperty="id"
+<!--    <insert id="insertEmp" parameterType="employee" keyProperty="empid"-->
+<!--            useGeneratedKeys="true">-->
+<!--        <selectKey resultType="int" keyColumn="Empid" order="AFTER" keyProperty="empid">-->
+<!--            select LAST_INSERT_ID()-->
+<!--        </selectKey>-->
+<!--        INSERT into employee(Empid,name,phone,branch,email)-->
+<!--        values(#{empid},#{name},#{phone},#{branch},#{email})-->
+<!--    </insert>-->
+
+    <insert id="insertEmp" parameterType="employee" keyProperty="empid"
             useGeneratedKeys="true">
-        <selectKey resultType="int" keyColumn="Empid" order="AFTER" keyProperty="id">
-            select LAST_INSERT_ID()
-        </selectKey>
-        INSERT into employee(Empid,name,phone,branch,email)
-        values(#{empid},#{name},#{phone},#{branch},#{email})
+        INSERT into employee(name,phone,branch,email)
+        values(#{name},#{phone},#{branch},#{email})
     </insert>
 
 

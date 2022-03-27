@@ -16,7 +16,7 @@ public class StoreEmp {
         ee.setBranch("板砖部");
         ee.setEmail("xixi@qq.com");
 
-        emp.store("ee");
+        emp.store(ee);
         System.out.println(" ---- Data Inserted Successfully -- ");
     }
 }
