@@ -14,7 +14,7 @@
         <result property="district" column="district"/>
     </resultMap>
 
-    <insert id="insertCity" parameterType="city" keyProperty="id"
+    <insert id="insertCity" parameterType="city"
             useGeneratedKeys="true">
         INSERT into City(id,name,district) values(#{id},#{name},#{district})
     </insert>

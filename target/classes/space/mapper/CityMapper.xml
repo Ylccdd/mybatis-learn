@@ -14,7 +14,7 @@
         <result property="district" column="district"/>
     </resultMap>
 
-    <insert id="insertCity" parameterType="city" keyProperty="id"
+    <insert id="insertCity" parameterType="city"
             useGeneratedKeys="true">
         INSERT into City(id,name,district) values(#{id},#{name},#{district})
     </insert>
@@ -32,7 +32,7 @@
         where id = #{id};
     </delete>
 
-    <select id="selectById" resultType="space.hw1.city.City">
+    <select id="selectById" resultType="space.hw.hw1.city.City">
         select *
         from city
         where id = #{id};

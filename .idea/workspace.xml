@@ -5,27 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e6f3054-286e-4d89-96ff-4bf53d3a4d27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/space/hw1/test/CityDel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/space/hw1/test/CityQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/space/hw1/test/CityUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/space/dao/EmpDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/space/hw/hw2/employee/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/space/hw/hw2/test/StoreEmp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/space/mapper/EmpMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9fdd814a-a0d3-4ed4-9f80-3dbc1ad9e3e4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9fdd814a-a0d3-4ed4-9f80-3dbc1ad9e3e4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/9fdd814a-a0d3-4ed4-9f80-3dbc1ad9e3e4/entities/entities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9fdd814a-a0d3-4ed4-9f80-3dbc1ad9e3e4/entities/entities.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/9fdd814a-a0d3-4ed4-9f80-3dbc1ad9e3e4/entities/entities.dat.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9fdd814a-a0d3-4ed4-9f80-3dbc1ad9e3e4/entities/entities.dat.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/9fdd814a-a0d3-4ed4-9f80-3dbc1ad9e3e4/entities/entities.dat_i" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9fdd814a-a0d3-4ed4-9f80-3dbc1ad9e3e4/entities/entities.dat_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/space/city/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/space/hw1/city/City.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/space/dao/CityDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/space/dao/CityDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/space/test/CityExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/space/hw1/test/CityExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/space/util/SqlSessionFactoryUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/space/util/SqlSessionFactoryUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/mycity-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mycity-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/space/mapper/CityMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/space/mapper/CityMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/mycity-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mycity-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/space/city/City.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/space/dao/CityDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/space/dao/CityDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/space/hw1/city/City.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/space/hw1/test/CityDel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/space/hw1/test/CityExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/space/hw1/test/CityQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/space/hw1/test/CityUpdate.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/space/mapper/CityMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/space/mapper/CityMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/space/test/CityExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/space/util/SqlSessionFactoryUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/space/util/SqlSessionFactoryUtils.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +54,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mybatis-202034070751-李攀科/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/space/mapper" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -70,6 +68,9 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\program\maven-test\maven-test\src\main\resources\space\mapper" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="space" />
     </key>
@@ -77,7 +78,7 @@
       <recent name="space.service" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.CityQuery">
+  <component name="RunManager" selected="应用程序.StoreEmp">
     <configuration name="CityDel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="space.hw.hw1.test.CityDel" />
       <module name="brand-demo" />
@@ -130,8 +131,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StoreEmp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="space.hw.hw2.test.StoreEmp" />
+      <module name="brand-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="space.hw.hw2.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.StoreEmp" />
         <item itemvalue="应用程序.CityQuery" />
         <item itemvalue="应用程序.CityDel" />
         <item itemvalue="应用程序.CityExample" />
@@ -160,7 +175,7 @@
       <workItem from="1647823717861" duration="3819000" />
       <workItem from="1648017004090" duration="4554000" />
       <workItem from="1648281702195" duration="8739000" />
-      <workItem from="1648296925456" duration="3920000" />
+      <workItem from="1648296925456" duration="10782000" />
     </task>
     <servers />
   </component>
