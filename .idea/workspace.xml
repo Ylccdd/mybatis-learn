@@ -5,16 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e6f3054-286e-4d89-96ff-4bf53d3a4d27" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/space/dao/CustomerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/space/entity/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/space/hw/entity/City.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/space/hw/entity/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/space/hw/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/space/hw/hw3/dao/CustomerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/space/hw/hw3/sample/AddCustomer_New.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/space/hw/hw3/sample/DelCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/space/hw/hw3/sample/SelectCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/space/hw/hw3/sample/UpdateCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/space/util/DaoFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/9fdd814a-a0d3-4ed4-9f80-3dbc1ad9e3e4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9fdd814a-a0d3-4ed4-9f80-3dbc1ad9e3e4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/9fdd814a-a0d3-4ed4-9f80-3dbc1ad9e3e4/entities/entities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9fdd814a-a0d3-4ed4-9f80-3dbc1ad9e3e4/entities/entities.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/9fdd814a-a0d3-4ed4-9f80-3dbc1ad9e3e4/entities/entities.dat.values" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9fdd814a-a0d3-4ed4-9f80-3dbc1ad9e3e4/entities/entities.dat.values" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/9fdd814a-a0d3-4ed4-9f80-3dbc1ad9e3e4/entities/entities.dat.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9fdd814a-a0d3-4ed4-9f80-3dbc1ad9e3e4/entities/entities.dat.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/9fdd814a-a0d3-4ed4-9f80-3dbc1ad9e3e4/entities/entities.dat.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9fdd814a-a0d3-4ed4-9f80-3dbc1ad9e3e4/entities/entities.dat.values.s" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/9fdd814a-a0d3-4ed4-9f80-3dbc1ad9e3e4/entities/entities.dat_i" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9fdd814a-a0d3-4ed4-9f80-3dbc1ad9e3e4/entities/entities.dat_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brand-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/brand-demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/space/hw/hw2/employee/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/space/hw/hw2/employee/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mycity-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mycity-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mycity-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mycity-config.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,14 +36,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Tag Library Descriptor" />
         <option value="Interface" />
+        <option value="Tag Library Descriptor" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="21mZX9ahG6XNOt1UCsZZ06DIFfc" />
   <component name="ProjectViewState">
@@ -45,7 +60,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../IdeaProjects/springyll/spring-learningyll/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -53,7 +68,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -66,29 +81,19 @@
       <recent name="space" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="space.dao" />
+      <recent name="space.hw.entity" />
+      <recent name="space.hw.hw3.entity" />
       <recent name="space.service" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.StoreEmp">
-    <configuration name="CityDel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="space.hw.hw1.test.CityDel" />
+  <component name="RunManager" selected="应用程序.SelectCustomer">
+    <configuration name="AddCustomer_New" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="space.hw.hw3.sample.AddCustomer_New" />
       <module name="brand-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="space.hw.hw1.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CityExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="space.hw.hw1.test.CityExample" />
-      <module name="brand-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="space.hw.hw1.test.*" />
+          <option name="PATTERN" value="space.hw.hw3.sample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CityUpdate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="space.hw.hw1.test.CityUpdate" />
+    <configuration name="DelCustomer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="space.hw.hw3.sample.DelCustomer" />
       <module name="brand-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="space.hw.hw1.test.*" />
+          <option name="PATTERN" value="space.hw.hw3.sample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +127,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StoreEmp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="space.hw.hw2.test.StoreEmp" />
+    <configuration name="SelectCustomer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="space.hw.hw3.sample.SelectCustomer" />
       <module name="brand-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="space.hw.hw2.test.*" />
+          <option name="PATTERN" value="space.hw.hw3.sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpdateCustomer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="space.hw.hw3.sample.UpdateCustomer" />
+      <module name="brand-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="space.hw.hw3.sample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.StoreEmp" />
+        <item itemvalue="应用程序.SelectCustomer" />
         <item itemvalue="应用程序.CityQuery" />
-        <item itemvalue="应用程序.CityDel" />
-        <item itemvalue="应用程序.CityExample" />
-        <item itemvalue="应用程序.CityUpdate" />
+        <item itemvalue="应用程序.AddCustomer_New" />
+        <item itemvalue="应用程序.DelCustomer" />
+        <item itemvalue="应用程序.UpdateCustomer" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +187,10 @@
       <workItem from="1648296925456" duration="11732000" />
       <workItem from="1648381450229" duration="44000" />
       <workItem from="1649055443776" duration="123000" />
-      <workItem from="1649226106752" duration="3061000" />
+      <workItem from="1649226106752" duration="4153000" />
+      <workItem from="1649493247139" duration="201000" />
+      <workItem from="1649831772248" duration="3025000" />
+      <workItem from="1649835098008" duration="6668000" />
     </task>
     <servers />
   </component>

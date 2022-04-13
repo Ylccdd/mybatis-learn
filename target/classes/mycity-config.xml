@@ -30,5 +30,6 @@
         <!-- 将包内的映射器接口实现全部注册为映射器 -->
 <!--        <package name="space.mapper"/>-->
         <mapper resource="space/mapper/EmpMapper.xml"/>
+        <mapper class="space.hw.hw3.dao.CustomerDao"/>
     </mappers>
 </configuration>
