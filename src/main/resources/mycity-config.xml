@@ -9,13 +9,29 @@
 <!--        <typeAlias type="space.hw.hw1.city.City" alias="city"/>-->
 <!--    </typeAliases>-->
     <typeAliases>
-        <package name="space.hw.hw1.city"/>
-        <package name="space.hw.hw2.employee"/>
+<!--        <package name="space.hw.hw1.city"/>-->
+<!--        <package name="space.hw.hw2.employee"/>-->
+        <package name="space.hw.entity"/>
+        <package name="space.entity"/>
     </typeAliases>
     <environments default="development">
+         <!--
+            environment 配置某个具体的环境
+            属性: id 表示链接数据库环境的唯一表识, 不能重复
+         -->
         <environment id="development">
             <transactionManager type="JDBC"></transactionManager>
+<!--            事务管理器设置事务管理方式
+                JDBC 中原生的,事务的提交回滚手动
+                manage 被管理,隶属spring-->
             <dataSource type="POOLED">
+<!--                数据源 设置数据源类型
+                    POOLED 表示使用数据库连接池缓存数据库连接
+                    un     表示不使用数据库连接池
+                    JNDI表示使用上下文数据源
+                    使用spring则不用,自动配置
+
+                    -->
                 <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
                 <property name="url" value="jdbc:mysql://localhost/mybatis"/>
                 <property name="username" value="root"/>
@@ -31,5 +47,6 @@
 <!--        <package name="space.mapper"/>-->
         <mapper resource="space/mapper/EmpMapper.xml"/>
         <mapper class="space.hw.hw3.dao.CustomerDao"/>
+        <mapper resource="space/mapper/StudentDataMapper.xml"/>
     </mappers>
 </configuration>

@@ -1004,113 +1004,158 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Plugin>caching_sha2_password</Plugin>
     </user>
     <table id="294" parent="8" name="city"/>
-    <table id="295" parent="8" name="customer">
+    <table id="295" parent="8" name="courses"/>
+    <table id="296" parent="8" name="customer">
       <Collation>utf8_general_ci</Collation>
     </table>
-    <table id="296" parent="8" name="employee">
+    <table id="297" parent="8" name="employee">
       <Collation>utf8_general_ci</Collation>
     </table>
-    <table id="297" parent="8" name="user">
+    <table id="298" parent="8" name="students"/>
+    <table id="299" parent="8" name="user">
       <Collation>utf8_general_ci</Collation>
     </table>
-    <column id="298" parent="294" name="id">
+    <column id="300" parent="294" name="id">
       <Position>1</Position>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="299" parent="294" name="name">
+    <column id="301" parent="294" name="name">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <Collation>utf8_general_ci</Collation>
     </column>
-    <column id="300" parent="294" name="district">
+    <column id="302" parent="294" name="district">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <Collation>utf8_general_ci</Collation>
     </column>
-    <column id="301" parent="294" name="status">
+    <column id="303" parent="294" name="status">
       <Position>4</Position>
       <DataType>varchar(255)|0s</DataType>
       <Collation>utf8_general_ci</Collation>
     </column>
-    <key id="302" parent="294" name="PRIMARY">
+    <key id="304" parent="294" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="303" parent="295" name="ID">
+    <column id="305" parent="295" name="courseid">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="306" parent="295" name="coursename">
+      <Position>2</Position>
+      <DataType>varchar(20)|0s</DataType>
+    </column>
+    <column id="307" parent="295" name="classroom">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="308" parent="295" name="teacher">
+      <Position>4</Position>
+      <DataType>varchar(20)|0s</DataType>
+    </column>
+    <index id="309" parent="295" name="courseid">
+      <ColNames>courseid</ColNames>
+      <Type>btree</Type>
+    </index>
+    <foreign-key id="310" parent="295" name="courses_ibfk_1">
+      <ColNames>courseid</ColNames>
+      <RefTableName>students</RefTableName>
+      <RefColNames>stuid</RefColNames>
+    </foreign-key>
+    <column id="311" parent="296" name="ID">
       <Position>1</Position>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="304" parent="295" name="NAME">
+    <column id="312" parent="296" name="NAME">
       <Position>2</Position>
       <DataType>varchar(20)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="305" parent="295" name="CITY">
+    <column id="313" parent="296" name="CITY">
       <Position>3</Position>
       <DataType>varchar(20)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="306" parent="295" name="EMAIL">
+    <column id="314" parent="296" name="EMAIL">
       <Position>4</Position>
       <DataType>varchar(25)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="307" parent="295" name="PHONE">
+    <column id="315" parent="296" name="PHONE">
       <Position>5</Position>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="308" parent="295" name="PRIMARY">
+    <key id="316" parent="296" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>ID</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="309" parent="296" name="Empid">
+    <column id="317" parent="297" name="Empid">
       <Position>1</Position>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="310" parent="296" name="name">
+    <column id="318" parent="297" name="name">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
     </column>
-    <column id="311" parent="296" name="phone">
+    <column id="319" parent="297" name="phone">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
     </column>
-    <column id="312" parent="296" name="branch">
+    <column id="320" parent="297" name="branch">
       <Position>4</Position>
       <DataType>varchar(255)|0s</DataType>
     </column>
-    <column id="313" parent="296" name="email">
+    <column id="321" parent="297" name="email">
       <Position>5</Position>
       <DataType>varchar(255)|0s</DataType>
     </column>
-    <key id="314" parent="296" name="PRIMARY">
+    <key id="322" parent="297" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>Empid</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="315" parent="297" name="id">
+    <column id="323" parent="298" name="stuid">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="324" parent="298" name="stuname">
+      <Position>2</Position>
+      <DataType>varchar(20)|0s</DataType>
+    </column>
+    <column id="325" parent="298" name="course">
+      <Position>3</Position>
+      <DataType>varchar(20)|0s</DataType>
+    </column>
+    <key id="326" parent="298" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>stuid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="327" parent="299" name="id">
       <Position>1</Position>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="316" parent="297" name="username">
+    <column id="328" parent="299" name="username">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
     </column>
-    <column id="317" parent="297" name="password">
+    <column id="329" parent="299" name="password">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
     </column>
-    <key id="318" parent="297" name="PRIMARY">
+    <key id="330" parent="299" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>

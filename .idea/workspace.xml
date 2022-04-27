@@ -5,26 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e6f3054-286e-4d89-96ff-4bf53d3a4d27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/space/dao/CustomerDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/space/entity/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/space/hw/entity/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/space/hw/entity/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/space/hw/entity/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/space/hw/hw3/dao/CustomerDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/space/hw/hw3/sample/AddCustomer_New.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/space/hw/hw3/sample/DelCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/space/hw/hw3/sample/SelectCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/space/hw/hw3/sample/UpdateCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/space/util/DaoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/space/entity/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/space/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/space/sample/StuCourseData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/space/mapper/StudentDataMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/space/mapper/UserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/9fdd814a-a0d3-4ed4-9f80-3dbc1ad9e3e4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9fdd814a-a0d3-4ed4-9f80-3dbc1ad9e3e4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/9fdd814a-a0d3-4ed4-9f80-3dbc1ad9e3e4/entities/entities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9fdd814a-a0d3-4ed4-9f80-3dbc1ad9e3e4/entities/entities.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/9fdd814a-a0d3-4ed4-9f80-3dbc1ad9e3e4/entities/entities.dat.values" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9fdd814a-a0d3-4ed4-9f80-3dbc1ad9e3e4/entities/entities.dat.values" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/9fdd814a-a0d3-4ed4-9f80-3dbc1ad9e3e4/entities/entities.dat.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9fdd814a-a0d3-4ed4-9f80-3dbc1ad9e3e4/entities/entities.dat.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/9fdd814a-a0d3-4ed4-9f80-3dbc1ad9e3e4/entities/entities.dat.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9fdd814a-a0d3-4ed4-9f80-3dbc1ad9e3e4/entities/entities.dat.values.s" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/9fdd814a-a0d3-4ed4-9f80-3dbc1ad9e3e4/entities/entities.dat_i" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9fdd814a-a0d3-4ed4-9f80-3dbc1ad9e3e4/entities/entities.dat_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/space/hw/entity/Customer.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/mycity-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mycity-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/mycity-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mycity-config.xml" afterDir="false" />
     </list>
@@ -65,6 +58,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -87,7 +81,12 @@
       <recent name="space.service" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.SelectCustomer">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="int course" />
+    </option>
+  </component>
+  <component name="RunManager" selected="应用程序.StuCourseData">
     <configuration name="AddCustomer_New" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="space.hw.hw3.sample.AddCustomer_New" />
       <module name="brand-demo" />
@@ -140,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UpdateCustomer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="space.hw.hw3.sample.UpdateCustomer" />
+    <configuration name="StuCourseData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="space.sample.StuCourseData" />
       <module name="brand-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="space.hw.hw3.sample.*" />
+          <option name="PATTERN" value="space.sample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.StuCourseData" />
+        <item itemvalue="应用程序.AddCustomer_New" />
         <item itemvalue="应用程序.SelectCustomer" />
         <item itemvalue="应用程序.CityQuery" />
-        <item itemvalue="应用程序.AddCustomer_New" />
         <item itemvalue="应用程序.DelCustomer" />
-        <item itemvalue="应用程序.UpdateCustomer" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +189,10 @@
       <workItem from="1649226106752" duration="4153000" />
       <workItem from="1649493247139" duration="201000" />
       <workItem from="1649831772248" duration="3025000" />
-      <workItem from="1649835098008" duration="6668000" />
+      <workItem from="1649835098008" duration="7039000" />
+      <workItem from="1650438854299" duration="2573000" />
+      <workItem from="1650695966753" duration="5416000" />
+      <workItem from="1651041714037" duration="2391000" />
     </task>
     <servers />
   </component>

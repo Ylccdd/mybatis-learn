@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="space.mapper.StudentDataMapper">
+    <resultMap type="Student" id="stu">
+        <id property="stuid" column="stuid"/>
+        <result property="stuname" column="stuname"/>
+
+        <association property="course" javaType="Course">
+            <id property="courseid" column="courseid"/>
+            <result property="coursename" column="coursename"/>
+            <result property="classroom" column="classroom"/>
+            <result property="teacher" column="teacher"/>
+        </association>
+    </resultMap>
+    <select id="getStuCourseById" parameterType="int"
+            resultMap="stu" resultType="Student">
+        select a.stuid,a.stuname,b.coursename,b.classroom,b.teacher
+        from students a inner join courses b
+                                   on a.stuid=b.courseid
+                                       and a.stuid=#{id}
+    </select>
+</mapper>
